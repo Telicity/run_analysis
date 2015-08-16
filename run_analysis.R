@@ -22,7 +22,7 @@ run_analysis <- function() {
         Y<-rbind(Y_train, Y_test)
         
         #2. Extracts only the measurements on the mean and standard deviation for each measurement. 
-        msFeatures <- which(sapply(features[,2],function(x){grepl("mean|std",x)}))
+        msFeatures <- which(sapply(features[,2],function(x){grepl("mean\\(\\)|std\\(\\)",x)}))
         
         ##all data we're going to need together
         exsXY<-cbind(subject,Y,X[,msFeatures])
