@@ -2,18 +2,18 @@
 Variables in saAvg.txt
 
 
-1. "Activities"  
-        A.  The name of the activity recorded   
-        B. Values:  
-                i. WALKING  
-                ii. WALKING_UPSTAIRS  
-                iii. WALKING_DOWNSTAIRS  
-                iii. SITTING  
-                iv. STANDING  
-                v. LAYING  
-2. "Subject"  
-        A. The number of the subject who performed the activity  
-        B. Values: 1 through 30  
+"Activities"  
+        The name of the activity recorded   
+        Values:  
+                WALKING  
+                WALKING_UPSTAIRS  
+                WALKING_DOWNSTAIRS  
+                SITTING  
+                STANDING  
+                LAYING  
+"Subject"  
+        The number of the subject who performed the activity  
+        Values: 1 through 30  
 
                 
 The remaining variables represent the means and standard deviations per Activity and Subject of various measurements recorded by Samsung phones on the subjects in question. Quote below are the relevant parts of the original explanation by those who did the study:
